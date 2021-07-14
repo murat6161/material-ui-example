@@ -24,7 +24,7 @@ const App = () => {
 
   <main>
     <div className={classes.container}>
-      <Container maxWidth="sm" style={{marginTop: '100px'}}>
+      <Container maxWidth="sm" className={classes.toolbar}>
         <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
           Photo Album
         </Typography>
